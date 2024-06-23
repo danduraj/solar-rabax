@@ -2,7 +2,7 @@
   "name": "solar-rabax",
   "version": "0.1.0",
   "private": true,
- 
+  "homepage": "https://danduraj.github.io/solar-rabax",
   "dependencies": {
     "@fontsource/open-sans": "^5.0.28",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
@@ -24,7 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-   
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
