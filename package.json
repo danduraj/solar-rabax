@@ -2,7 +2,7 @@
   "name": "solar-rabax",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": ".",
   "dependencies": {
     "@fontsource/open-sans": "^5.0.28",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
