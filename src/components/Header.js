@@ -160,14 +160,14 @@ const Header = () => {
 
   return (
     <HeaderContainer>
-      <LogoContainer to="/home">
+      <LogoContainer to="/">
         RABAX
       </LogoContainer>
       <MenuIcon onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}
       </MenuIcon>
       <Nav open={menuOpen}>
-        <NavLink to="/home">HOME</NavLink>
+        <NavLink to="/">HOME</NavLink>
         <NavLink to="/about">ABOUT</NavLink>
         <Dropdown>
           <DropdownButton onClick={toggleDropdown}>
